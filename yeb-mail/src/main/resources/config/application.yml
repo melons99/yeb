@@ -1,0 +1,24 @@
+server:
+  port: 8082
+
+spring:
+  #邮件配置
+  mail:
+    #邮件服务器地址
+    host: smtp.qq.com
+    #协议
+    protocol: smtp
+    #编码格式
+    default-encoding: utf-8
+    #授权码
+    password: ylysseluxogybeeb
+    #发送者邮箱地址
+    username: 714684734@qq.com
+    #端口
+    port: 587
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: yeb
+    password: yeb
